@@ -1,0 +1,83 @@
+.portfolio-banner {
+    position: relative;
+    height: 600px;
+}
+
+
+.image-revolver-container {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 0px
+}
+
+.revolving-image {
+    height: auto;
+    animation: slideAnimation infinite linear;
+    padding: 20px 0px;
+}
+
+@keyframes slideAnimation {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@media only screen and (min-width: 0px) {
+    .revolving-image {
+        width: 500vw;
+    }
+}
+
+@media only screen and (min-width: 300px) {
+    .revolving-image {
+        width: 450vw;
+    }
+}
+
+
+@media only screen and (min-width: 400px) {
+    .revolving-image {
+        width: 350vw;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .revolving-image {
+        width: 300vw;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .revolving-image {
+        width: 250vw;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .revolving-image {
+        width: 200vw;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .revolving-image {
+        width: 180vw;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .revolving-image {
+        width: 150vw;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .revolving-image {
+        width: 120vw;
+    }
+}
